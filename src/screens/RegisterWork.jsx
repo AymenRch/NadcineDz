@@ -37,7 +37,7 @@ function validate(form) {
   else if (!/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(form.email)) errors.email = "البريد الإلكتروني غير صالح";
 
   if (!form.phone.trim()) errors.phone = "رقم الهاتف مطلوب";
-  else if (!/^[0-9+\s\-]{7,15}$/.test(form.phone)) errors.phone = "رقم الهاتف غير صالح";
+  else if (!/^[0-9+\s-]{7,15}$/.test(form.phone)) errors.phone = "رقم الهاتف غير صالح";
 
   if (!form.profession) errors.profession = "يرجى اختيار مهنتك";
 

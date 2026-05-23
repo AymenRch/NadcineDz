@@ -671,7 +671,7 @@ const styles = {
 
 
 
-    table: {
+    worksList: {
 
         display: "flex",
 
